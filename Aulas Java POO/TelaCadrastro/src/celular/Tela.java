@@ -173,13 +173,13 @@ public class Tela extends javax.swing.JFrame {
             StringBuilder sb = new StringBuilder();
             sb.append(c1.getMarca());
             sb.append(",");
-            sb.append(c1.getSistema());
-            sb.append(",");
             sb.append(c1.getCor());
             sb.append(",");
-            sb.append(c1.getTela());
-            sb.append(",");
             sb.append(c1.getArmazenamento());
+            sb.append(",");
+            sb.append(c1.getSistema());
+            sb.append(",");
+            sb.append(c1.getTela());
             writer.write(sb.toString());
             writer.close();
             lblStatus.setText("Gravação Concluida");
